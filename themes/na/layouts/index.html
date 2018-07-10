@@ -1,0 +1,19 @@
+{{ template "theme/partials/header.html" . }}
+
+{{ if .IsHome }}
+
+    <div id="left">
+        <span class="small">KARMEN<br />CHAN</span></div><img height="75" src="feelsgoodman.png" /><br /><br /><br />
+    <div id="left">
+{{ range (.Paginator 20).Pages }}
+        <span class="home"></span><a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+{{ end }}        
+    </div>
+
+{{ if .Paginator.HasNext }}
+<a href="{{ .Paginator.Next.URL }}">more</a>
+{{ end }}
+
+{{ end }}
+
+{{ template "theme/partials/footer.html" . }}

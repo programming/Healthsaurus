@@ -1,0 +1,9 @@
+baseURL = "https://karmenchan.com/"
+title = "Karmen Chan"
+theme = "na"
+
+[params]
+  subtitle = "Personal Homepage of Karmen Chan"
+  
+[outputs]
+home = ["HTML", "RSS"]

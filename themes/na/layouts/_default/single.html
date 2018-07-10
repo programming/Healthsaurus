@@ -1,0 +1,7 @@
+{{ template "theme/partials/header.html" . }}
+<strong>{{ .Title }}</strong><hr />
+<p>{{ .Content }}</p>
+<small></small>
+<div id="date">{{ .Date.Format "02 January 2006" }}</div>
+<p><a href="{{.Site.BaseURL}}">home</a></p>
+{{ template "theme/partials/footer.html" . }}
