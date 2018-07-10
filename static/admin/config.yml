@@ -18,7 +18,7 @@ collections:
         name: "title"
         widget: "string"
 
-      - label: "Publish Date"
+      - label: "Date"
         name: "date"
         required: false
         widget: "datetime"
@@ -32,34 +32,6 @@ collections:
         name: "tags"
         required: false
         widget: "list"
-
-      - label: "Keywords"
-        name: "keywords"
-        required: false
-        widget: "list"
-
-      - label: "Auto Thumbnail Image"
-        name: "autoThumbnailImage"
-        required: false
-        widget: "boolean"
-        default: false
-
-      - label: "Thumbnail Image Position"
-        name: "thumbnailImagePosition"
-        required: false
-        widget: "select"
-        default: "top"
-        options: ["left", "top", "right"]
-        
-      - label: "Thumbnail Image"
-        name: "thumbnailImage"
-        required: false
-        widget: "image"
-
-      - label: "Cover Image"
-        name: "coverImage"
-        required: false
-        widget: "image"
         
       - label: "Body"
         name: "body"
