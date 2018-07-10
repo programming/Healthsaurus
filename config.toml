@@ -3,14 +3,12 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Healthsaurus"
 theme = "na"
-googleAnalytics = "UA-3325476-172"
-canonifyurls = true
   
 [outputs]
 home = ["HTML", "RSS"]
 
 [Permalinks]
-  post = ":slug"
+  post = "/:slug/"
 
 [taxonomies]
   tag = "tags"
