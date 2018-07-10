@@ -10,7 +10,7 @@ canonifyurls = true
 home = ["HTML", "RSS"]
 
 [Permalinks]
-  post = "/:slug/"
+  post = ":slug"
 
 [taxonomies]
   tag = "tags"
