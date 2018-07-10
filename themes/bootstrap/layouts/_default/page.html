@@ -1,0 +1,59 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "meta" }}
+{{ partial "single_meta.html" . }}
+{{ partial "single_json_ld.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="{{ .Site.BaseURL }}"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        {{ with .Section }}
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/" itemprop="url"><span itemprop="title">{{ . }}</span></a></li>
+        {{ end }}
+        <li class="active">{{ .Title }}</li>
+      </ol>
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+  </header>
+
+  {{ with .Params.thumbnail }}<div class="thumb" style="background-image: url({{ $.Site.BaseURL }}{{ . }});"></div>{{ end }}
+
+  <div class="article-body">{{ .Content }}</div>
+
+  <footer class="article-footer">
+    {{ $params := .Params }}
+    {{ range $key, $value := $.Site.Taxonomies }}
+    {{ if isset $params $key }}
+    <section class="bordered">
+      <header>
+        <div class="panel-title">{{ $key | upper }}</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          {{ range (index $params $key) }}
+          <li><a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+  </footer>
+
+</article>
+
+  </div>
+
+  <div class="col-md-4">
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

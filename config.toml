@@ -2,7 +2,7 @@ baseURL = "https://healthsaurus.netlify.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Healthsaurus"
-theme = "na"
+theme = "bootstrap"
   
 [outputs]
 home = ["HTML", "RSS"]
@@ -11,6 +11,22 @@ home = ["HTML", "RSS"]
   post = "/:slug/"
 
 [taxonomies]
-  tag = "tags"
   category = "categories"
-  archive = "archives"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "getting started"
+    url = "/getting-started/"
+    weight = -100
+    
+  [[menu.main]]
+    name = "cloud"
+    url = "/cloud/"
+    parent = "about"
