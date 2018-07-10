@@ -1,9 +1,9 @@
-baseURL = "https://karmenchan.com/"
-title = "Karmen Chan"
+baseURL = "https://healthsaurus.com/"
+title = "Healthsaurus"
 theme = "na"
 
 [params]
-  subtitle = "Personal Homepage of Karmen Chan"
+  subtitle = "Latest health tips and information"
   
 [outputs]
 home = ["HTML", "RSS"]
