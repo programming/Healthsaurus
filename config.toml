@@ -1,9 +1,21 @@
 baseURL = "https://healthsaurus.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "Healthsaurus"
 theme = "na"
+googleAnalytics = "UA-3325476-172"
+canonifyurls = true
 
 [params]
   subtitle = "Latest health tips and information"
   
 [outputs]
 home = ["HTML", "RSS"]
+
+[permalinks]
+  post = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
