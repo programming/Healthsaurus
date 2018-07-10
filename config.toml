@@ -1,4 +1,4 @@
-baseURL = "https://healthsaurus.com/"
+baseURL = "https://healthsaurus.netlify.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Healthsaurus"
