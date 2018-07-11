@@ -17,16 +17,16 @@ home = ["HTML", "RSS"]
 
   [[menu.main]]
     identifier = "about"
-    name = "about hugo"
+    name = "About"
     url = "/about/"
-    weight = -110
+    weight = 1
 
   [[menu.main]]
     name = "getting started"
     url = "/getting-started/"
-    weight = -100
+    weight = 2
     
   [[menu.main]]
     name = "cloud"
     url = "/cloud/"
-    parent = "about"
+    parent = "getting started"
