@@ -27,11 +27,6 @@ collections:
         name: "categories"
         required: false
         widget: "list"
-
-      - label: "Tags"
-        name: "tags"
-        required: false
-        widget: "list"
         
       - label: "Body"
         name: "body"
