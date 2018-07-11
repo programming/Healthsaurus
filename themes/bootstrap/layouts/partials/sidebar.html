@@ -21,7 +21,7 @@
     </div>
     <div class="list-group">
       {{ range first 10 $value.ByCount }}
-      <a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}" class="list-group-item">{{ .Name }}</a>
+      <a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}" class="list-group-item">{{ .Name | title }}</a>
       {{ end }}
     </div>
   </section>
