@@ -7,7 +7,9 @@
     </div>
     <div class="list-group">
       {{ range first 10 .Site.RegularPages }}
-      <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+      {{ if ne .Type "page" }}
+      <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>      
+      {{ end }}
       {{ end }}
     </div>
   </section>
