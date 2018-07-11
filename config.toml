@@ -22,11 +22,12 @@ home = ["HTML", "RSS"]
     weight = 1
 
   [[menu.main]]
-    name = "getting started"
-    url = "/getting-started/"
+    identifier = "contact"  
+    name = "Contact"
+    url = "/contact/"
     weight = 2
     
   [[menu.main]]
-    name = "cloud"
-    url = "/cloud/"
-    parent = "getting started"
+    name = "More"
+    url = "/contact/"
+    parent = "contact"
