@@ -16,9 +16,6 @@
     {{ range $key, $value := $.Site.Taxonomies }}
     {{ if isset $params $key }}
     <section class="bordered">
-      <header>
-        <div class="panel-title">{{ $key | upper }}</div>
-      </header>
       <div>
         <ul class="p-terms">
           {{ range (index $params $key) }}
