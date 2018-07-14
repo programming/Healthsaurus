@@ -13,21 +13,21 @@ home = ["HTML", "RSS"]
 [taxonomies]
   category = "categories"
 
-[menu]
+# [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 1
 
-  [[menu.main]]
-    identifier = "contact"  
-    name = "Contact"
-    url = "/contact/"
-    weight = 2
+#   [[menu.main]]
+#     identifier = "contact"  
+#     name = "Contact"
+#     url = "/contact/"
+#     weight = 2
     
-  [[menu.main]]
-    name = "More"
-    url = "/contact/"
-    parent = "contact"
+#   [[menu.main]]
+#     name = "More"
+#     url = "/contact/"
+#     parent = "contact"
