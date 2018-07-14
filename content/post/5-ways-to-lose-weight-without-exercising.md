@@ -14,13 +14,14 @@ Thankfully for us, there are other ways to lose weight with just a few simple tw
 
 1. Drinking water\
       \
-   We are often reminded on the importance of staying hydrated, but can drinking water actually help us lose weight?\
-   \
-   The answer is YES. Not only does this zero calories drink help increase metabolism, it burns calories too! Studies have shown that drinking cold water helps burn more calories as the body uses more energy to heat up the water for digestion.\
+We are often reminded on the importance of staying hydrated, but can drinking water actually help us lose weight?\
       \
-   People have also tend to confuse thirst for hunger. If you find yourself reaching out for snacks every now and then, there is a high chance that your body is actually dehydrated. So before you subconsciously add more calories to your daily intake, why not remind yourself to drink more water instead.\
-   \
-   Many have claimed that water also acts as an appetite suppressant and drinking a glass of water 30 minutes before your meal can help reduce your appetite. Moreover, the water would cause you to feel fuller, essentially controlling your appetite and calories intake. 
+The answer is YES. Not only does this zero calories drink help increase metabolism, it burns calories too! Studies have shown that drinking cold water helps burn more calories as the body uses more energy to heat up the water for digestion.\
+      \
+People have also tend to confuse thirst for hunger. If you find yourself reaching out for snacks every now and then, there is a high chance that your body is actually dehydrated. So before you subconsciously add more calories to your daily intake, why not remind yourself to drink more water instead.\
+      \
+Many have claimed that water also acts as an appetite suppressant and drinking a glass of water 30 minutes before your meal can help reduce your appetite. Moreover, the water would cause you to feel fuller, essentially controlling your appetite and calories intake. 
+
 2. Having sufficient sleep\
       \
    Did you know that our body burns calories even while we are sleeping? Research has shown that a person with sufficient amounts of sleep burns more calories than one without.\
@@ -28,6 +29,7 @@ Thankfully for us, there are other ways to lose weight with just a few simple tw
    That being said, over sleeping can slow down one’s metabolism rate which is counter productive for your weight loss plans. The recommended hours lies between having 7 to 9 hours of quality sleep. The number of calories burned while sleeping however, varies per individual. Factors such as age, gender, weight, and metabolism rate has to be taken into consideration as well.\
       \
    Sleep deprivation also affects certain hormones in your body, causing you to feel hungrier and have increased cravings for junk food. The brain tends to make less tactful choices due to the lack of rest and often, to counter the lack of energy, you find yourself reaching for junk food. 
+
 3. Reduce sugar intake\
    \
     Soft drinks in general are extremely high in calories. Not only does it have no nutrients, it is detrimental to our body and dental health as well.\
