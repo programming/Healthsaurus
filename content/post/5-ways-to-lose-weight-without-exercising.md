@@ -11,7 +11,7 @@ Bad habits die hard and trying to get yourself to suddenly commit to a strict di
 
 Thankfully for us, there are other ways to lose weight with just a few simple tweaks in our daily habits. Here are 5 of them to get you started!
 
-1. Drinking water
+1. **Drinking water**
 
 	We are often reminded on the importance of staying hydrated, but can drinking water actually help us lose weight?
 	
@@ -21,7 +21,7 @@ Thankfully for us, there are other ways to lose weight with just a few simple tw
 	
 	Many have claimed that water also acts as an appetite suppressant and drinking a glass of water 30 minutes before your meal can help reduce your appetite. Moreover, the water would cause you to feel fuller, essentially controlling your appetite and calories intake. 
 
-2. Having sufficient sleep
+2. **Having sufficient sleep**
 
 	Did you know that our body burns calories even while we are sleeping? Research has shown that a person with sufficient amounts of sleep burns more calories than one without.
 	
@@ -29,7 +29,7 @@ Thankfully for us, there are other ways to lose weight with just a few simple tw
 	
 	Sleep deprivation also affects certain hormones in your body, causing you to feel hungrier and have increased cravings for junk food. The brain tends to make less tactful choices due to the lack of rest and often, to counter the lack of energy, you find yourself reaching for junk food. 
 
-3. Reduce sugar intake
+3. **Reduce sugar intake**
 
 	Soft drinks in general are extremely high in calories. Not only does it have no nutrients, it is detrimental to our body and dental health as well.
 	
@@ -41,7 +41,7 @@ Thankfully for us, there are other ways to lose weight with just a few simple tw
 	
 	To prevent yourself from unknowingly consuming more calories than you had hoped to, make sure to check those ingredients list before consumption. Also, try ditching sweetened drinks or soda for plain water and notice the difference for yourself!
 	
-4. Eating right
+4. **Eating right**
 
 	Have you ever skipped a meal or two in a bid to lose some weight? Many people tend to think that the key to weight loss is to cut down on their food intake. That may be true, but not entirely.
 	
@@ -51,7 +51,7 @@ Thankfully for us, there are other ways to lose weight with just a few simple tw
 	
 	When your body stays hungry for a prolonged period of time, you tend to overeat in your next meal.  Hence, by nibbling on a healthy snack or two between your main meals, you wlll be able to better control your appetite and not over indulge to make up for the lack of.
 	
-5. Eat slower
+5. **Eat slower**
 
 	Good news for slow eaters! Slower eating can actually aid in your weight loss. Eating too quickly tend to lead to overeating as the brain has not had the time to receive signals that the body is full.
 	

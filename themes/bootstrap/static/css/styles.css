@@ -252,10 +252,6 @@ article.li.sm>header {
   line-height: 1rem;
 }
 
-.article-body strong {
-  box-shadow: 0 -.5rem 0 0 #5bc0de inset;
-}
-
 .article-body em {
   font-style: normal;
   font-weight: 700;
