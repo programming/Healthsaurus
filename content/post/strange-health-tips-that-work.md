@@ -2,7 +2,7 @@
 title: 10 Strange Health Tips That Work
 date: 2018-07-14T00:00:00.000Z
 categories:
-  - Tips
+  - 'Health Tips'
 ---
 ![10 Strange Health Tips That Work](/img/horizon.jpeg)
 
