@@ -29,17 +29,13 @@
 
 </aside>
 
-    {{ $taxname := .Data.Plural }}
-    {{ range $uglyTermName, $pages := .Data.Terms }}
-      {{ $page := index $pages 0 }}
-      {{ range $friendly := (index $page.Page.Params $taxname) }}
-          {{ if eq $uglyTermName ($friendly | urlize) }}
-              <a href="{{$base}}/{{$taxname}}/{{$uglyTermName}}"> {{ $friendly }} </a> &nbsp;({{len $pages}} entries)
-         {{end}}
-      {{end}}
-    {{end}}
 
-
-
-
- 
+    {{ with .Params.categories }}
+    <ul>
+        {{range .}}
+            <li>
+                <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+            </li>
+        {{end}}
+    </ul>
+    {{ end }}
