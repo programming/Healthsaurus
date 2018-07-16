@@ -29,14 +29,15 @@
 
 </aside>
 
-<ul>
-    {{ range $key, $value := .Site.Taxonomies.categories }}
-    <li>
-        <a href="/categories/{{ $key | urlize }}">{{ $key | title }}</a>
-    </li>
-    {{ end }}
-</ul>
-
+    {{ $taxname := .Data.Plural }}
+    {{ range $uglyTermName, $pages := .Data.Terms }}
+      {{ $page := index $pages 0 }}
+      {{ range $friendly := (index $page.Page.Params $taxname) }}
+          {{ if eq $uglyTermName ($friendly | urlize) }}
+              <a href="{{$base}}/{{$taxname}}/{{$uglyTermName}}"> {{ $friendly }} </a> &nbsp;({{len $pages}} entries)
+         {{end}}
+      {{end}}
+    {{end}}
 
 
 
