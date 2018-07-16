@@ -21,21 +21,10 @@
     </div>
     <div class="list-group">
       {{ range first 10 $value.ByCount }}
-      <a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}" class="list-group-item">{{ .Name | title }}</a>
+      <a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}" class="list-group-item">{{replace .Name " " "-" }} {{ .Name | title }}</a>
       {{ end }}
     </div>
   </section>
   {{ end }}
 
 </aside>
-
-
-    {{ with .Params.categories }}
-    <ul>
-        {{range .}}
-            <li>
-                <a href="/tags/{{ . | urlize }}">{{ . }}</a>
-            </li>
-        {{end}}
-    </ul>
-    {{ end }}
