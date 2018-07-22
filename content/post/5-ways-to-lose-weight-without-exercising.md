@@ -1,5 +1,5 @@
 ---
-title: 5 ways to lose weight without exercising
+title: 5 Ways To Lose Weight Without Exercising
 date: '2018-07-15T00:18:03+08:00'
 categories:
   - Diet
